@@ -31,8 +31,8 @@ public interface ClubRepository extends JpaRepository<Club, Integer> {
 
 
     // Before y After. 
-    List<Club> findByMatchDateAfter(Timestamp date);
-    List<Club> findByMatchDateAfter(Timestamp date);
+    //List<Club> findByMatchDateAfter(Timestamp date);
+    //List<Club> findByMatchDateAfter(Timestamp date);
 
     //IsNull. IsNotNull
     Boolean findByEndDateIsNull();
